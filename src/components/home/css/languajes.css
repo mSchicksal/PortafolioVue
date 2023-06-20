@@ -1,0 +1,33 @@
+#languajes {
+    margin-bottom: 60px;
+}
+
+.languajes-title {
+    margin-bottom: 20px;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, transparent, var(--second-color), transparent);
+    border-image-slice: 1;
+}
+.languajes-title span {
+    font-size: 32px;
+    padding: 10px;
+    color: var(--first-color);
+}
+.languajes-card {
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 6px 0px var(--first-color);
+    -moz-box-shadow: 0px 0px 6px 0px var(--first-color);
+    box-shadow: 0px 0px 6px 0px var(--first-color);
+}
+
+.languajes-card-title {
+    font-weight: bolder;
+    color: var(--third-color)
+}
+
+.languajes-card-title-decoration {
+    color: var(--second-color);
+    font-weight: 900;
+    font-size: 20px;
+}

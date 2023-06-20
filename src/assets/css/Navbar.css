@@ -1,0 +1,34 @@
+.app-navbar {
+    background-color: var(--fourth-color);
+    padding: 20px;
+    font-weight: 200;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, transparent, var(--second-color), transparent);
+    border-image-slice: 1;
+}
+
+.app-navbar div {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.app-navbar div a {
+    text-decoration: none;
+    color: var(--first-color);
+    transition: .6s;
+}
+
+.app-navbar div a:hover {
+    color: var(--second-color);
+    transition: .6s;
+}
+
+.app-navbar div i {
+    color: var(--second-color);
+    transition: .6s;
+}
+
+.app-navbar div i:hover {
+    color: var(--first-color);
+    transition: .6s;
+}
