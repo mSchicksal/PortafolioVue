@@ -2,49 +2,58 @@
     <div class="container" id="languajes">
         <div class="row">
             <div class="col-12 app-flex-center languajes-title">
-                <span>Experience</span>
+                <span>Skills</span>
             </div>
         </div>
         <div class="row app-flex-center">
-            <div class="col-4">
+            <div class="col-4 align-items-stretch">
                 <div class="languajes-card card">
                     <div class="card-body">
                         <h5 class="card-title">
                             <span class="languajes-card-title">
                                 <span class="languajes-card-title-decoration"> { </span>
-                                Laravel
+                                Web development
                                 <span class="languajes-card-title-decoration"> }</span>
                             </span>
                         </h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="card-text">- Python.</p>
+                                <p class="card-text">- Django.</p>
+                                <p class="card-text">- Php.</p>
+                                <p class="card-text">- Laravel.</p>
+                                <p class="card-text">- Vuejs.</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text">- Html.</p>
+                                <p class="card-text">- Css.</p>
+                                <p class="card-text">- Javascript.</p>
+                                <p class="card-text">- Database.</p>
+                                <p class="card-text">- Integrations.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 align-items-stretch">
                 <div class="languajes-card card">
                     <div class="card-body">
                         <h5 class="card-title">
                             <span class="languajes-card-title">
                                 <span class="languajes-card-title-decoration"> { </span>
-                                Laravel
+                                E-Commerce
                                 <span class="languajes-card-title-decoration"> }</span>
                             </span>
                         </h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="languajes-card card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <span class="languajes-card-title">
-                                <span class="languajes-card-title-decoration"> { </span>
-                                Laravel
-                                <span class="languajes-card-title-decoration"> }</span>
-                            </span>
-                        </h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="card-text">- Prestashop.</p>
+                                <p class="card-text">- Mailchimp.</p>
+                                <p class="card-text">- Advertising campaigns.</p>
+                            </div>
+                            <div class="col-6">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

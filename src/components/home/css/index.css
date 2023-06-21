@@ -26,3 +26,19 @@ p {
     border: 6px solid var(--second-color)
 
 }
+
+.index-button {
+    font-size: 24px;
+    color: var(--fourth-color);
+    background-color: var(--second-color);
+    border: 2px solid var(--fourth-color);
+    padding: 10px 20px 10px 20px;
+    transition: .8s;
+}
+
+.index-button:hover {
+    color: var(--second-color);
+    background-color: var(--fourth-color);
+    border: 2px solid var(--second-color);
+    transition: .8s;
+}

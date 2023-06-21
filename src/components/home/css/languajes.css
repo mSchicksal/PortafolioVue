@@ -19,6 +19,11 @@
     -webkit-box-shadow: 0px 0px 6px 0px var(--first-color);
     -moz-box-shadow: 0px 0px 6px 0px var(--first-color);
     box-shadow: 0px 0px 6px 0px var(--first-color);
+    transition: 0.3s;
+}
+.languajes-card:hover {
+    transform: translate(0px, -14px);
+    transition: 0.3s;
 }
 
 .languajes-card-title {
@@ -30,4 +35,23 @@
     color: var(--second-color);
     font-weight: 900;
     font-size: 20px;
+}
+
+.skills-progress-bar {
+    background-color: var(--fourth-color);
+    border: 1px solid var(--second-color);
+    border-radius: 20px;
+    margin: 8px;
+}
+.skills-progress-bar-fill {
+    border-radius: 20px;
+    background: var(--second-color);
+    background-size: 200% 200%;
+}
+
+.skills-languaje {
+    pointer-events: none;
+    text-transform: capitalize;
+    color: var(--fourth-color);
+    background-color: transparent;
 }

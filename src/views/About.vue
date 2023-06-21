@@ -1,5 +1,6 @@
 <template>
     <div class="container-fluid">
+        <Contact/>
     </div>
 </template>
 <script>
@@ -10,11 +11,5 @@
         components: {
             Contact
         },
-        data() {
-            return {
-            }
-        },
-        methods: {
-        }
     });
 </script>

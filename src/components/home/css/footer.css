@@ -1,0 +1,20 @@
+#footer {
+    position: absolute;
+    bottom: 0;
+    line-height: 60px;
+    background-color: var(--second-color);
+    max-width: 100%;
+    color: var(--fourth-color);
+}
+
+.footer {
+    font-size: 24px;
+}
+
+.footer a {
+    margin: 4px;
+}
+
+.footer a i {
+    color: var(--fourth-color);
+}

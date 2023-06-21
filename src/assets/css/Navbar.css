@@ -8,11 +8,11 @@
 }
 
 .app-navbar div {
-    cursor: pointer;
     font-size: 22px;
 }
 
 .app-navbar div a {
+    cursor: pointer;
     text-decoration: none;
     color: var(--first-color);
     transition: .6s;
@@ -24,6 +24,7 @@
 }
 
 .app-navbar div i {
+    cursor: pointer;
     color: var(--second-color);
     transition: .6s;
 }
